@@ -18,6 +18,6 @@ function play(choice){
     else{
         result = "Computer Wins";
     }
-    document.getElementById("result").innerHTML = `You: ${choice} Computer: ${randomComputer} Result: ${result}`;
+    document.getElementById("result").innerHTML = `You: ${choice} <br> Computer: ${randomComputer} <br> Result: ${result}`;
 
 }
